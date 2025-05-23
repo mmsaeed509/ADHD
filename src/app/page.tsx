@@ -4,6 +4,17 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BrainCircuit, CalendarDays, Smile, Target, ArrowRight, Menu, X } from 'lucide-react';
 
+// Color Palette Definition:
+// Background: bg-stone-50 (#fafaf9)
+// Text (Primary): text-slate-800 (#1e293b)
+// Text (Secondary): text-slate-500 (#64748b)
+// Primary Action: bg-orange-500 (#f97316)
+// Accent Colors for Icons:
+// - Blue: bg-blue-100, text-blue-600, border-blue-200
+// - Green: bg-green-100, text-green-600, border-green-200
+// - Yellow: bg-yellow-100, text-yellow-600, border-yellow-200
+// - Pink: bg-pink-100, text-pink-600, border-pink-200
+
 interface ClayIconProps {
   IconComponent: React.FC<{ className?: string }>;
   label: string;
@@ -203,4 +214,4 @@ export default function Home() {
       </main>
     </div>
   );
-} 
+}
