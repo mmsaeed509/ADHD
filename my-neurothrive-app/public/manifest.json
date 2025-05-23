@@ -1,0 +1,16 @@
+{
+  "name": "NeuroThrive",
+  "short_name": "NeuroThrive",
+  "description": "Transform your ADHD challenges into strengths with our science-backed course",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF9",
+  "theme_color": "#1E293B",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
